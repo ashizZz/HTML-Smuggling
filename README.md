@@ -20,4 +20,5 @@ Then we copy this into the apache webroot and start the apache server
     cd /var/www/html
     
     service apache2 start
-
+But in order to supply this into our blob as a buffer, we need a single string with no enters. This fixing be done manually by copying this output in notepad and removing enters or you could follow our alternate approach by going to ***[base64.guru](https://base64.guru/)*** website.
+Here, upload your payload and the converted base64 shall be given in a single line.
